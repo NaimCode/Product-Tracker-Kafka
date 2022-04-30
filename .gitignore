@@ -1,3 +1,6 @@
 Server/node_modules/
 client/node_modules/
 client/.next
+app/.dart_tool
+app/.idea
+app/build/

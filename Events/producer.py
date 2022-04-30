@@ -18,4 +18,4 @@ for i in range(0, 1000):
         {"product": "HDMI", "price": randint(0, 50)},
         {"product": "PC", "price": randint(200, 600)},
     ] )
-    time.sleep(5)
+    time.sleep(20)

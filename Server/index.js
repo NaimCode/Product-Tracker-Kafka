@@ -22,6 +22,7 @@ io.on("connection", async (socket) => {
         data: JSON.parse(message.value.toString()),
         date: new Date().toLocaleTimeString(),
       });
+      console.log("emitting...");
     },
   });
   socket.on("disconnect", () => {
